@@ -24,25 +24,25 @@
 // Provide a constructor `Pair(A first, B second)` and getter methods
 // `getFirst()` and `getSecond()`.
 
-
-void main() {
-    // Create a variable named `beamBreak` with type `IntakeSensor`, and assign it a new instance of BeamBreak.
-    // Create a variable named `laserCAN` of type `IntakeSensor`, and assign it a new instance of LaserCAN.
-    // Print the result of calling `distanceMillimeters()` on both sensors.
-
-
-    // Create a Pair of String and Integer (Pair<String, Integer>) with the values "Robot" and 254.
-    // Print the first value and the second value separated by a space using getFirst() and getSecond().
+public class InterfacesAndLists {
+    public static void main(String[] args) {
+        // Create a variable named `beamBreak` with type `IntakeSensor`, and assign it a new instance of BeamBreak.
+        // Create a variable named `laserCAN` of type `IntakeSensor`, and assign it a new instance of LaserCAN.
+        // Print the result of calling `distanceMillimeters()` on both sensors.
 
 
-    // Create a List of Strings (`List<String>`) named `subsystems` using `new ArrayList<>()`.
-    // Add the strings "Drivetrain", "Intake", and "Shooter" to `subsystems`.
+        // Create a Pair of String and Integer (Pair<String, Integer>) with the values "Robot" and 254.
+        // Print the first value and the second value separated by a space using getFirst() and getSecond().
 
 
-    // Print the size of the `subsystems` list.
+        // Create a List of Strings (`List<String>`) named `subsystems` using `new ArrayList<>()`.
+        // Add the strings "Drivetrain", "Intake", and "Shooter" to `subsystems`.
 
 
-    // Using a for-each loop, iterate over `subsystems` and print each subsystem name.
+        // Print the size of the `subsystems` list.
 
+
+        // Using a for-each loop, iterate over `subsystems` and print each subsystem name.
+    }
 
 }
